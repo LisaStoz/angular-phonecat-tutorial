@@ -19,7 +19,7 @@
 		<p> Sort by:
   <select ng-model="orderProp">
     <option value="name">Alphabetical</option>
-    <option value="age">Newest</option>
+    <option value="-age">Newest</option>
   </select>
 </p>
       </div>
@@ -36,7 +36,7 @@
       </div>
     </div>
 	
-	<div class="row"><p>{{query}}</p></div>
+	<div class="row"><p>{{orderProp}}</p></div>
   </div>
 
 
